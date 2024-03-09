@@ -19,7 +19,7 @@ const Links = ({ links }: LinksProps) => {
           key={index}
           className={`${
             pathname === link.path && "active"
-          } hover:text-blue-600`}
+          } hover:text-customText`}
         >
           {link.title}
         </Link>

@@ -12,23 +12,23 @@ import Links from "./Links";
 const navLinks = [
   {
     title: "Home",
-    path: "/",
+    path: "#",
   },
   {
     title: "About",
-    path: "/about",
+    path: "#about",
   },
   {
-    title: "Gallery",
-    path: "/gallery",
+    title: "Services",
+    path: "#services",
   },
   {
-    title: "Event",
-    path: "/event",
+    title: "Portfolio",
+    path: "#portfolio",
   },
   {
     title: "Contact",
-    path: "/contact",
+    path: "#contact",
   },
 ];
 

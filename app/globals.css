@@ -4,35 +4,36 @@
  
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    --gradient: #00d2ff;
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
- 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
- 
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
- 
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
- 
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
- 
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
- 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 20% 98%;
+    --background: 203 65% 4%;
+    --foreground: 203 10% 97.5%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
- 
-    --radius: 0.5rem;
+    --muted: 203 50% 15%;
+    --muted-foreground: 203 10% 55%;
+
+    --popover: 203 45% 6.5%;
+    --popover-foreground: 203 10% 97.5%;
+
+    --card: 203 45% 6.5%;
+    --card-foreground: 203 10% 97.5%;
+
+    --border: 203 50% 15%;
+    --input: 203 50% 15%;
+
+    --primary: 203 100% 50%;
+    --primary-foreground: 203 10% 5%;
+
+    --secondary: 203 50% 15%;
+    --secondary-foreground: 203 10% 97.5%;
+
+    --accent: 203 50% 15%;
+    --accent-foreground: 203 10% 97.5%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 203 10% 97.5%;
+
+    --ring: 203 100% 50%;
   }
  
   .dark {
@@ -72,5 +73,39 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 lg:px-24 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 lg:px-24 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-16 py-8;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply pt-8;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .info-text {
+    @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }

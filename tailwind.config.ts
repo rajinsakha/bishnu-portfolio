@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        customText:"var(--gradient)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
