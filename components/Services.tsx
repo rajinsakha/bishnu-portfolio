@@ -9,21 +9,36 @@ const Services = () => {
             Icon: MdVpnKey,
             title: 'Digital Product Design',
             description:'Multiple Layers of Security are Dispered Across the Networks.'
-        }
+        },
+        {
+          Icon: MdVpnKey,
+          title: 'Digital Product Design',
+          description:'Multiple Layers of Security are Dispered Across the Networks.'
+      },
+      {
+        Icon: MdVpnKey,
+        title: 'Digital Product Design',
+        description:'Multiple Layers of Security are Dispered Across the Networks.'
+    },
+    {
+      Icon: MdVpnKey,
+      title: 'Digital Product Design',
+      description:'Multiple Layers of Security are Dispered Across the Networks.'
+  }
     ]
 
 
   return (
     <section className="padding flex flex-col gap-6 items-center">
       <Title title="Services I Provide" />
-      <p className="text-gray-300">
+      <p className="text-gray-300 max-w-xl text-center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi at
         deserunt sit ex saepe architecto perspiciatis ab dolor reiciendis atque?
-        Veniam laborum sunt alias magni quia accusantium voluptatibus eaque et?
+        
       </p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12">
         {serviceList.map((service,index)=>(
-            <ServiceCard service={service} key={index}/>
+            <ServiceCard Icon={service.Icon} title={service.title} description={service.description} key={index}/>
         ))}
       </div>
     </section>

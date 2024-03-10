@@ -10,3 +10,12 @@ export interface IServiceCard{
     title:string;
     description:string;
 }
+
+export interface IContact{
+
+        fullname: string;
+        email: string;
+        message: string;
+
+    
+}
