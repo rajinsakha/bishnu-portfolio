@@ -14,7 +14,7 @@ const Header = () => {
         </div>
 
         <div className='flex-1 w-full max-lg:hidden flex justify-end'>
-            <Image src="/hero_image.JPG" alt='main-image' sizes='100vw' width={0} height={0} className='object-cover w-[80%] h-full' />
+            <Image src="/Image.png" alt='main-image' sizes='100vw' width={0} height={0} className='object-contain w-[80%] h-full' />
         </div> 
     </section>
   )
