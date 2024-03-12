@@ -6,7 +6,7 @@ const Timeline = () => {
     <div className="w-full">
     {/* <h1 className="font-bold italic mb-10">PROYECTOS</h1> */}
 
-    <div className="relative mt-5 text-left text-white">
+    <div className="relative mt-5 text-left text-black">
         
         <div className="flex items-center relative">
             

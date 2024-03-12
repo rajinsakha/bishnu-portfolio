@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <section
-      className="padding w-full flex max-lg:flex-col justify-between"
+      className="padding w-full flex max-lg:flex-col justify-between bg-slate-50"
       id="about"
     >
       <div className="flex-1 w-full flex items-center justify-start">
@@ -41,7 +41,7 @@ const About = () => {
 
       <div className="flex-1 flex flex-col justify-center gap-6">
         <Title title="Know Me More" />
-        <p className="text-white max-w-lg">
+        <p className="text-black max-w-lg">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
           laboriosam sequi, autem odit inventore recusandae placeat. Eaque a
           nobis aperiam?
